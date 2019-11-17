@@ -1,4 +1,5 @@
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/CUBOT/DINOSAUR/app,system/app)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/CUBOT/DINOSAUR/bin,system/bin)
 
